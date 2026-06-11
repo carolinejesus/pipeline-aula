@@ -9,4 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Mostrar mensagem
-        run: comando_inexistente
+        run: echo "Pipeline executado com sucesso!"
+
+      - name: Mostrar HTML
+        run: cat index.html
