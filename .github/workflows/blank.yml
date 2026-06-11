@@ -1,10 +1,12 @@
 name: Pipeline Aula
+
 on:
-push
+  push
 jobs:
-teste:
-runs-on: ubuntu-latest
-steps:
-- uses: actions/checkout@v4
-- name: Mostrar mensagem
-run: echo "Pipeline executado com sucesso!"
+  teste:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mostrar mensagem
+        run: echo "Pipeline executado com sucesso!"
