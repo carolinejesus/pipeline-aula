@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Mostrar mensagem
-        run: echo "Pipeline executado com sucesso!"
+        run: echo comendo_inexistente
